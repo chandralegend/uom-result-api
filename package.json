@@ -1,0 +1,22 @@
+{
+  "name": "results_api",
+  "version": "1.0.0",
+  "description": "Api for Result Scraping",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "deploy": "gcloud app deploy"
+  },
+  "author": "chandralegend",
+  "license": "ISC",
+  "engines": {
+    "node": "12.x.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^5.5.0"
+  }
+}
