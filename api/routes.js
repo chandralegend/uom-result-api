@@ -4,4 +4,7 @@ module.exports = function(app) {
 
   app.route('/results')
     .get(scrapeController.getResults)
+
+  app.route('/test')
+    .get(scrapeController.testGet)
 };

@@ -70,7 +70,7 @@ async function scrapeResults(page) {
 }
 
 const getResults = async (username, password) => {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({ headless: true , args: ['--no-sandbox'] });
   const page = await browser.newPage();
 
   await login(username, password, page);

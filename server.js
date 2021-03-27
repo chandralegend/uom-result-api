@@ -11,4 +11,4 @@ routes(app);
 
 app.listen(port);
 
-console.log("server started on: " + port);
+console.log("server started on: http://localhost:" + port);
